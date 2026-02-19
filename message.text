@@ -1,0 +1,9 @@
+writing good commit messages
+
+feat: A new feature
+fix: A bug fix
+docs: Documentation only changes
+chore: Routine tasks
+refactor: Code changes that neither fix a bug nor add a feature
+
+
