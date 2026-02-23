@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
     <title>Biography  — Portfolio  </title>
     <!-- NAVIGATION -->
     <nav class="navbar">
         <div class="nav-logo">introduction</div>
         <ul class="nav-links">
             <li><a href="#About">About</a></li>
-            <li><a href="#Skill">Skill</a></li>
-            <li><a href="#Project">Project</a></li>
+            <li><a href="#Skill">Skills</a></li>
+            <li><a href="#Project">Projects</a></li>
             <li><a href="#Contect">Contect</a></li>
         </ul>
+        <button class="hamburger" id="hamburger">&#9776;</button>
     </nav>
     <!-- HERO CONTENT -->
     <section class="hero" id="home">
         <div class="hero-tag">Learn something new everyday</div>
         <h1 class="hero-title">
-            Hello,I am <span class="hightlight">AUMPON SOMBUD</span><br/>
+            Hi,I am <span class="hightlight">AUMPON</span><br/>
             A Paasionate<br/>
             <span class="typewriter" id="typewriter"></span>
         </h1>
@@ -42,39 +45,178 @@
             <div class="about-grid">
                 <div class="about-img-wrap">
                 <div class="about-img-placeholer">
-                    <span></span>
+                    <span><img src="/img/37122.jpg" alt="me"></span>
                 </div>
             </div>
             <div class="about-text">
-                <p>
-            I am <strong> Aumnpon Sombud</strong>, nickname Toey a IT student base in 
-            Sapporo, Japan.I am passionate about building automation software that 
-            anything that takes a task humans normally do and makes a computer do it automatically.
-                </p>
-                <p>
-            I am currently exploring<strong>RPA Development</strong>,
-            working with technologies like HTML/CSS/JS, Node.js, Java Spring Boot,
-            and Python.I love coding and create new things maker workflow easier.
-                </p> 
-                <p>
-            When I'm not coding, you can find me exploring new technologies,
-            reading tech blogs, or working on personal projects.
-                </p>
+            <p>
+            I am <strong>Aumpon Sombud</strong>, nicknamed <strong>Toey</strong>, an IT student based in 
+            Sapporo, Japan. I am passionate about building automation software—creating 
+            systems that take tasks humans normally do and make computers handle them automatically.
+            </p>
+
+            <p>
+            I am currently exploring <strong>Software Development</strong>, 
+            working with technologies such as HTML, CSS, JavaScript, Node.js, 
+            Java Spring Boot, and Python. I love coding and creating new things 
+            or workflows that help make people's work easier.
+            </p> 
+
+            <p>
+            My hobbies include trying to cook new dishes, taking walks, 
+            traveling around Japan, and working on personal projects 
+            while learning new things.
+            </p>
+            <br>
+            <p>
+            私は<strong> Aumpon Sombud </strong>（ニックネーム：Toey）と申します。日本の札幌を拠点にしているIT学生です。
+            人が普段行っている作業をコンピュータに自動化させるソフトウェアの開発に強い関心を持っています。
+            </p>
+
+            <p>
+            現在は<strong>ソフトウェア開発</strong>を中心に学んでおり、
+            HTML、CSS、JavaScript、Node.js、Java（Spring Boot）、Python などの技術に取り組んでいます。
+            コーディングを通して新しいものやワークフローを作り、人の仕事をより効率的にすることが好きです。
+            </p> 
+
+            <p>
+            趣味は、自分の作ったことのない料理を作ること、散歩をすること、アニメを見ること、
+            たまに日本国内を旅行すること、そして個人プロジェクトに取り組みながら新しいことを学ぶことです。
+            </p>    
+            
             <div class="about-facts">
-                <div class="fact"><span class="fact-num">1+</span><span>Languages</span></div>
-                <div class="fact"><span class="fact-num">1+</span><span>Projects</span></div>
-                <div class="fact"><span class="fact-num">1+</span><span>Projects</span></div>
-                <div></div>
+                <div class="fact"><span class="fact-num">3</span><span>Languages</span></div>
+                <div class="fact"><span class="fact-num">3</span><span>Projects</span></div>
+                <div class="fact"><span class="fact-num">3-4</span><span>Year Learning</span></div>
             </div>
                 </div>
             </div>
         </div>
     </section>
 
-    
+    <!-- SKILL SECTION -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <span class="section-label">02 / Skills</span>
+            <h2 class="section-title">What I work with</h2>
+            <div class="skills-grid">
 
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="/img/2721264.png" alt="Frontend">
+                    </div>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="img/backend.png" alt="Backend">
+                        </div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Node.js</li>
+                    </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="img/github_logo_icon_188438.webp" alt="Tools">
+                        </div>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Postman</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+     <section class="section" id="projects">
+        <div class="container">
+            <span class="section-label">03 / Projects</span>
+            <h2 class="section-title">Things I have built</h2>
+            <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="projects-icon">
+                <img src="img/html.png">
+            </div>
+            <div class="project-tag"> HTML / CSS / JS</div>
+            <h3>Personal Bio Website</h3>
+            <p>A responsive portfolio website showcasing my biography, skills, and projects. Built from scratch with vanilla HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn-sm">Github →</a>
+                <a href="#" class="btn-sm btn-sm-outline">Live Demo →</a>
+        </div>
+
+        <div class="project-card">
+            <div class="projects-icon">
+                <img src="img/Python-logo-notext.svg.webp">
+            </div>
+          <div class="project-tag">Python</div>
+          <h3>Job Listings Scraper</h3>
+          <p>A Python web scraper that collects job listings from websites and exports them into a clean Excel file automatically.</p>
+          <div class="project-links">
+            <a href="#" class="btn-sm">GitHub →</a>
+            <a href="#" class="btn-sm btn-sm-outline">Live Demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+            <div class="projects-icon">
+                <img src="img/free--icon-svg-download-png-1174953.webp">
+            </div>
+          <div class="project-tag">Java Springboot</div>
+          <h3>Automation by JavaSpringboot</h3>
+          <p>Spring Boot can run scheduled or automated tasks This is similar to RPA but more powerful for backend systems.</p>
+          <div class="project-links">
+            <a href="#" class="btn-sm">GitHub →</a>
+            <a href="#" class="btn-sm btn-sm-outline">Live Demo →</a>
+          </div>
+        </div>
+        </div>
+        </div>
+     </section>
+
+     <!-- CONTACT SECTION -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <span class="section-label">04 / Contact</span>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-sub">I'm always open to new opportunities, collaborations, or just a friendly chat.</p>
+      <div class="contact-links">
+        <a href="aumpon_sombud@hotmail.com" class="contact-item">
+          <span class="contact-icon">💼</span>
+          <span>Aumpon_Sombud@hotmail.com</span>
+        </a>
+        <a href="https://github.com/ToeyAumpon" target="_blank" class="contact-item">
+          <span class="contact-icon">🐙</span>
+          <span>https://github.com/ToeyAumpon</span>
+        </a>
+        <a href="https://www.instagram.com/toey_aumpon?igsh=MjAxY3g3eW9vZnE4" target="_blank" class="contact-item">
+          <span class="contact-icon">✨</span>
+          <span>Instagram : @Toey Aumpon</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Built by <strong>Aumpon Sombud</strong> · 2026</p>
+  </footer>
+
+  <script src="main.js"></script>
 </head>
 <body>
-    
 </body>
 </html>
