@@ -1,4 +1,6 @@
-1.HMTL <span> ในสำหรับเติมสี้ใน css จัดในองค์ประกอบย่อย
+HTML
+
+●.HMTL <span> ในสำหรับเติมสี้ใน css จัดในองค์ประกอบย่อย
 มีผลในบรรทัด ไม่ออกนอกบรรทัด
 เช่น <p>นี่คือข้อความปกติ แต่คำนี้คือ <span style="color: red;">สีแดง</span> ที่ถูกแยกออกมา</p>
 
@@ -36,3 +38,66 @@ CSS
 ● :hover เมาส์ชี้มื้อทำงาน
 ● :hover::before = ตอนเมาส์ชี้ ให้เปลี่ยนสไตล์ของ element เสมือนนั้
 ● position: relative; คงตัวเองอยู่ใน layer
+
+JS
+
+●substring(0,0)
+ตัดstringที่กำหนด (start,end)
+
+"Hello world".substring(0, 5)
+// ผลลัพธ์: "Hello" ตั้งแต่ตัวที่ 5 เป็นต้นไป
+
+"JavaScript".substring(4)
+// ผลลัพธ์: "Script" ถ้าใส่แค่ start
+
+
+●let speed = isDeleting ? 60 : 110;
+<!-- let speed;
+
+if (isDeleting) {
+    speed = 60;
+} else {
+    speed = 110;
+} -->
+
+● เอฟเฟกต์พิมพ์ดีด (typewriter effect)
+
+● let speed = isDeleting ? 60 : 110;
+● setTimeout(type, speed);
+● type()
+ทำให้เกิดเรียกซ้ำได้แบบ 再帰
+type() ทำงาน
+   ↓
+รอ 110 ms
+   ↓
+เรียก type() ใหม่
+   ↓
+รออีก
+   ↓
+เรียกใหม่อีก
+
+● SetTimeout()
+setTimeout(function, delay);
+- function → โค้ดที่ต้องการให้ทำงาน
+- delay → เวลาหน่วง (มิลลิวินาที) เช่น 1000 = 1 วินาที
+setTimeout(() => {
+    console.log("Hello after 2 seconds");
+}, 2000);
+
+แ window.addEventListener("scroll", () => {
+    const navbar = document.querySelector(".navbar");
+
+    if (window.scrollY > 50) {
+        navbar.classList.add("shrink");
+    } else {
+        navbar.classList.remove("shrink");
+    }
+});
+
+ตอนบนสุด → navbar ใหญ่
+พอเลื่อนลง → navbar เล็กลง เพื่อประหยัดพื้นที่
+
+● window.addEventListener("scroll", ...)
+รับฟัง event เมื่อมีการสกอเกิดขึ้น
+
+●
