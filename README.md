@@ -16,7 +16,9 @@ A personal biography web application built with HTML, CSS, and JavaScript to sho
 - **Language:** HTML (primary)
 - **Architecture:** Vanilla JavaScript (no frameworks)
 
-- # バイオグラフィー ウェブ
+-------------------------------------------------
+
+# バイオグラフィー ウェブ
 
 個人の情報と成果を紹介するためのインタラクティブで視覚的に魅力的な方法で展示するために構築された個人バイオグラフィー ウェブアプリケーション。
 
