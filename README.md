@@ -1,5 +1,5 @@
 # Biography Web
-日本語版は下にあります
+日本語版は下にあります.
 A personal biography web application built with HTML, CSS, and JavaScript to showcase personal information and accomplishments.
 
 # Demo
