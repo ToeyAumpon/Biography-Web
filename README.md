@@ -2,7 +2,7 @@
 日本語版は下にあります
 
 # Demo
-
+![Demo](Demo.gif)
 
 A personal biography web application built with HTML, CSS, and JavaScript to showcase personal information and accomplishments.
 
