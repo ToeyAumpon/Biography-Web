@@ -2,7 +2,8 @@ const roles= [
     "Hello world!",
     "ソフトウェア開発",
     "Development",
-    "自動化技術"
+    "アプリケーション"
+
 ];
 let roleIndex = 0
 let charIndex = 0
